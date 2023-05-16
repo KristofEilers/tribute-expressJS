@@ -1,4 +1,4 @@
-[
+artists: [
  {
    "Name": "Michael Jackson",
    "Content Type": "Artists",
