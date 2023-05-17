@@ -14,11 +14,11 @@ app.use(cors());
 // Importing all Routes
 const artistsRouter = require("./routes/artists");
 
-app.get("/artists", (req, res) => {
-  // send the response with the Access-Control-Allow-Origin header
-  res.header("Access-Control-Allow-Origin", "*");
-  res.send("list of artists");
-});
+// app.get("/artists", (req, res) => {
+//   // send the response with the Access-Control-Allow-Origin header
+//   res.header("Access-Control-Allow-Origin", "*");
+//   res.send("list of artists");
+// });
 
 // List of routes - initial endpoints
 app.use("/", artistsRouter);
